@@ -1,0 +1,126 @@
+{
+    "ambiguous_sexist": [
+        {
+            "text": "Women who prioritize career over family miss out on life's greatest joy and fulfillment",
+            "expert_agreement": 0.67,
+            "difficulty": "high",
+            "shap_tokens": ["women", "career", "family", "joy"]
+        },
+        {
+            "text": "She's clearly using her charm and femininity to advance in a male-dominated workplace",
+            "expert_agreement": 0.73,
+            "difficulty": "medium",
+            "shap_tokens": ["fem", "charm", "advance", "male"]
+        },
+        {
+            "text": "Traditional gender roles exist for a reason - women naturally excel at nurturing children",
+            "expert_agreement": 0.64,
+            "difficulty": "high",
+            "shap_tokens": ["women", "naturally", "roles", "children"]
+        },
+        {
+            "text": "Working mothers often struggle to give their children the attention they deserve",
+            "expert_agreement": 0.56,
+            "difficulty": "very_high",
+            "shap_tokens": ["mothers", "children", "attention", "struggle"]
+        },
+        {
+            "text": "Women tend to be more emotional in their decision-making compared to men's logical approach",
+            "expert_agreement": 0.69,
+            "difficulty": "medium",
+            "shap_tokens": ["women", "emotional", "men", "logical"]
+        },
+        {
+            "text": "She's accomplished but you can tell she sacrificed her feminine qualities to get there",
+            "expert_agreement": 0.78,
+            "difficulty": "medium",
+            "shap_tokens": ["fem", "qualities", "sacrificed", "accomplished"]
+        },
+        {
+            "text": "Female leaders often compensate for natural disadvantages by being overly aggressive",
+            "expert_agreement": 0.71,
+            "difficulty": "medium",
+            "shap_tokens": ["women", "natural", "disadvantages", "aggressive"]
+        },
+        {
+            "text": "It's admirable when women can balance both career success and maintaining their femininity",
+            "expert_agreement": 0.58,
+            "difficulty": "very_high",
+            "shap_tokens": ["women", "career", "balance", "fem"]
+        },
+        {
+            "text": "Women bring different strengths to leadership - more collaborative, less confrontational",
+            "expert_agreement": 0.52,
+            "difficulty": "very_high",
+            "shap_tokens": ["women", "strengths", "collaborative", "confrontational"]
+        },
+        {
+            "text": "She's trying too hard to prove herself in a man's world instead of embracing her natural gifts",
+            "expert_agreement": 0.75,
+            "difficulty": "medium",
+            "shap_tokens": ["prove", "world", "natural", "gifts"]
+        }
+    ],
+    "ambiguous_not_sexist": [
+        {
+            "text": "Research shows gender differences in communication styles - women often use more collaborative language",
+            "expert_agreement": 0.25,
+            "difficulty": "high",
+            "shap_tokens": ["research", "women", "communication", "collaborative"]
+        },
+        {
+            "text": "The data indicates that women and men sometimes have different risk tolerance in financial decisions",
+            "expert_agreement": 0.32,
+            "difficulty": "high",
+            "shap_tokens": ["data", "women", "men", "financial"]
+        },
+        {
+            "text": "Studies suggest that female and male brains may process certain types of information differently",
+            "expert_agreement": 0.38,
+            "difficulty": "medium",
+            "shap_tokens": ["studies", "brains", "process", "information"]
+        },
+        {
+            "text": "Women's representation in STEM has improved significantly but still faces structural challenges",
+            "expert_agreement": 0.15,
+            "difficulty": "medium",
+            "shap_tokens": ["women", "representation", "STEM", "improved"]
+        },
+        {
+            "text": "Gender-specific mentorship programs help address unique challenges faced by women in leadership",
+            "expert_agreement": 0.22,
+            "difficulty": "medium",
+            "shap_tokens": ["gender", "mentorship", "women", "leadership"]
+        },
+        {
+            "text": "The wage gap data shows complex factors including industry choice, experience, and negotiation patterns",
+            "expert_agreement": 0.28,
+            "difficulty": "high",
+            "shap_tokens": ["wage", "gap", "factors", "negotiation"]
+        },
+        {
+            "text": "Maternity leave policies affect women's career progression more than paternity leave affects men's",
+            "expert_agreement": 0.35,
+            "difficulty": "medium",
+            "shap_tokens": ["maternity", "women", "career", "men"]
+        },
+        {
+            "text": "Women often face additional scrutiny about balancing work and family responsibilities",
+            "expert_agreement": 0.18,
+            "difficulty": "low",
+            "shap_tokens": ["women", "scrutiny", "balancing", "work"]
+        },
+        {
+            "text": "Female entrepreneurs often report different challenges in securing venture capital funding",
+            "expert_agreement": 0.21,
+            "difficulty": "medium",
+            "shap_tokens": ["entrepreneurs", "challenges", "venture", "capital"]
+        },
+        {
+            "text": "The glass ceiling phenomenon affects women's advancement in corporate hierarchies",
+            "expert_agreement": 0.14,
+            "difficulty": "low",
+            "shap_tokens": ["glass", "ceiling", "women", "advancement"]
+        }
+    ]
+}

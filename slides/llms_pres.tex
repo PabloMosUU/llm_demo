@@ -3,8 +3,9 @@
 \documentclass[t,xcolor={dvipsnames},final,aspectratio=169]{beamer}
 \beamertemplatenavigationsymbolsempty
 \usepackage{adjustbox}
-%\setbeameroption{hide notes}
-\setbeameroption{show notes on second screen}
+\setbeameroption{hide notes}
+%\setbeameroption{show notes on second screen}
+%\setbeameroption{show only notes}
 
 \mode<presentation> {
 	\usetheme{Frankfurt}
@@ -74,6 +75,8 @@ Can the LLM auto-complete?
 \pause
 \vfill
 \includegraphics<+->[width=8cm]{img/llm.png}
+
+Read more: \url{https://github.com/microsoft/generative-ai-for-beginners}
 \end{frame}
 }
 
@@ -86,6 +89,15 @@ Can the LLM auto-complete?
 \includegraphics[width=\textwidth]{img/trainingdata.png}
   \note{
   Unethical and possibly illegal access to data\\
+  
+  }
+\end{frame}
+
+\begin{frame}{Training data}
+``Given both the competitive landscape and the safety implications of large-scale models like GPT-4, this report contains no further details about the architecture (including model size), hardware, training compute, dataset construction, training method, or similar''
+
+OpenAI: Achiam, J. et al (2024). \textit{GPT-4 Technical Report}. \url{https://arxiv.org/abs/2303.08774}
+  \note{
   
   No open-source principles $\rightarrow$ no explainability, no reproducibility
   }
@@ -135,6 +147,32 @@ Can the LLM auto-complete?
 \begin{itemize}
 \item May be illegal!
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusions}
+\begin{itemize}
+\item Training probably used texts without permission
+\item Training relied on questionable labor conditions
+\item Overuse of LLMs can cause cognitive deterioration
+\item Uploading your data maybe illegal / against regulations
+\item And yet...
+\end{itemize}
+\note{No linguistics revolution}
+\end{frame}
+
+\begin{frame}{Convenience}
+\includegraphics[width=0.5\textwidth]{img/convenient.jpg}
+\end{frame}
+
+\begin{frame}{Convenience}
+\includegraphics[width=0.6\textwidth]{img/dishwasher.jpg}
+\note{Impossible to enter the market\\
+
+Comparison to slavery\\
+
+Choices don't have to be made exclusively on convenience\\
+
+Promote AI research}
 \end{frame}
 
 \section{Alternatives}
@@ -229,7 +267,17 @@ Sexism detection}
 
 \begin{frame}{The paper}
 \includegraphics[width=0.9\textwidth]{img/credit.png}
+
+In A. Fale\'nska, C. Basta, M. Costa-juss\`a, K. Sta\'nczak, \& D. Nozza (Eds), \textit{Proceedings of the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP)} (pp. 92–104). Association for Computational Linguistics. \url{https://doi.org/10.18653/v1/2025.gebnlp-1.9}
 \end{frame}
+
+{\setbeamertemplate{logo}{}
+\begin{frame}{The paper}
+\includegraphics[width=0.9\textwidth]{img/credit.png}
+\includegraphics[width=0.3\textwidth]{img/hadi.jpg}
+\includegraphics[width=0.3\textwidth]{img/tina.jpg}
+\end{frame}
+}
 
 \begin{frame}{Data}
 \begin{itemize}
@@ -250,6 +298,27 @@ Sexism detection}
 
 \item Goal 2: Evaluate the potential of GenAI models to replace human annotators. 
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Terminology and prerequisites}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+\begin{itemize}
+\item SHAP $\rightarrow$ highlighted (important) terms
+\item Four \emph{personas}:
+\end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}  %%<--- here
+    \begin{center}
+\includegraphics[width=\textwidth]{img/categories.png}
+\end{center}
+    \end{column}
+  \end{columns}
+  \end{frame}
+  
+  \begin{frame}{WARNING}
+\includegraphics[width=0.5\textwidth]{img/warning.jpg}
+\note{WHILE NOTEBOOK IS RUNNING, SHOW OPENROUTER AND ITS API}
 \end{frame}
 
 \end{document}
